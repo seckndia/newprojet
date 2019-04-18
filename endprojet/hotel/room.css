@@ -1,0 +1,44 @@
+body{
+    background-image: url(bleuciel.jpg);
+  
+    width: auto;
+    background-attachment: fixed;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+
+
+#chambre1 ,#chambre2, #chambre3, #chambre4, #chambre5{
+    border:solid black 0px;
+    width:100%;
+}
+
+#chambre1 h2, #chambre2 h2, #chambre3 h2, #chambre4 h2, #chambre4 h2, #chambre5 h2{
+    width:45%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 50px;
+    color: rgb(77, 20, 2);
+
+}
+
+#chambre1 img ,#chambre2 img, #chambre3 img, #chambre4 img, #chambre5 img{
+    width:45%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#leschambres{
+    width:100%;
+    text-align: center;
+}
+#chambre1:hover .image, #chambre2:hover .image, #chambre3:hover .image, #chambre4:hover .image, #chambre5:hover .image{
+    transform: scale(1.2);
+}
+.image{
+    transition: 3s;
+}
+
+
+
+
